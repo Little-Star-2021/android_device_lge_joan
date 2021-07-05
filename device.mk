@@ -381,6 +381,10 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
     libprotobuf-cpp-lite-vendorcompat
 
+# Performance
+PRODUCT_PACKAGES += \
+    powerctl
+
 # RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
