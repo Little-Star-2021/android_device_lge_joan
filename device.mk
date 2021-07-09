@@ -31,9 +31,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     apns-conf.xml
 
-# ARCore
-TARGET_INCLUDE_STOCK_ARCORE := true
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
