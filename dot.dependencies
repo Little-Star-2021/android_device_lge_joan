@@ -1,9 +1,15 @@
 [
   {
+    "repository": "Cristian-J/android_device_lge_joan",
+    "target_path": "device/lge/joan",
+    "branch": "dot",
+    "remote": "github"
+  },
+  {
     "remote": "github",
-    "repository": "Slowhy/android_kernel_lge_msm8998",
+    "repository": "Cristian-J/android_kernel_lge_msm8998",
     "target_path": "kernel/lge/msm8998",
-    "branch": "pe-11
+    "branch": "vaccine_2"
   },
   {
     "remote": "github",
@@ -13,14 +19,14 @@
   },
   {
     "remote": "github",
-    "repository": "Slowhy/android_device_lge_common",
+    "repository": "SupremMotu/android_device_lge_common",
     "target_path": "device/lge/common",
     "branch": "eleven"
   },
   {
     "remote": "github",
-    "repository": "Slowhy/android_hardware_lge",
+    "repository": "SGCMarkus/android_hardware_lge",
     "target_path": "hardware/lge",
-    "branch": "eleven"
+    "branch": "lineage-18.1"
   }
 ]
