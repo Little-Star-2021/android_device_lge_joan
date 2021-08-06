@@ -1,5 +1,5 @@
-# Inherit some common descendant stuff.
-$(call inherit-product, vendor/descendant/config/common.mk)
+# Inherit some common Dot OS stuff.
+$(call inherit-product, vendor/dot/config/common.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
@@ -18,7 +18,7 @@ $(call inherit-product, device/lge/joan/device.mk)
 
 # Device identifiers
 PRODUCT_DEVICE := joan
-PRODUCT_NAME := descendant_joan
+PRODUCT_NAME := dot_joan
 PRODUCT_BRAND := lge
 PRODUCT_MODEL := joan
 PRODUCT_MANUFACTURER := LGE
