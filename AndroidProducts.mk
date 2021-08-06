@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/dot_joan.mk
+    $(LOCAL_DIR)/descendant_joan.mk
 
 COMMON_LUNCH_CHOICES := \
-    dot_joan-userdebug \
-    dot_joan-eng
+    descendant_joan-userdebug \
+    descendant_joan-eng
