@@ -1,5 +1,5 @@
 # Inherit some common exthm UI stuff.
-$(call inherit-product, vendor/exthm/config/common.mk)
+$(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
