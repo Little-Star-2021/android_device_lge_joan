@@ -15,8 +15,8 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/exthm_joan.mk
+    $(LOCAL_DIR)/dot_joan.mk
 
 COMMON_LUNCH_CHOICES := \
-    exthm_joan-userdebug \
-    exthm_joan-eng
+    dot_joan-userdebug \
+    dot_joan-eng
